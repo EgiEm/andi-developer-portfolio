@@ -1,0 +1,877 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 144x; 
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    font-size: 16px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.call-to-action {
+    margin-left: auto;
+}
+
+.call-button {
+    background-color: #0056FF; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.call-button:hover {
+    background-color: #0041CC; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.text-content h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+.email-signup {
+    margin-top: 20px;
+}
+.email-signup input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+.email-signup button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 15px;
+    margin-right: 600px;
+}
+.image-box img {
+    width: 600px;
+    height: 600px;
+    margin-right: 400px;
+    object-fit: cover;
+}
+.emoji-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 30px;
+    background: #f1f1f1;
+}
+.text-work {
+    text-align: center; 
+    padding: 2rem; 
+}
+
+h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 1.5rem; 
+    color: #333; 
+}
+
+.image {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin: 0 auto;   
+}
+
+.image img {
+    margin: 0.5rem; 
+    opacity: 0.7; 
+    transition: opacity 0.3s; 
+}
+
+.image img:hover {
+    opacity: 1; 
+}
+.image1 {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top: 100px;
+}
+.commitments img {
+    width: 80%; /* Increase width to 120% of its original size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.our-work h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.our-work p {
+    font-size: 18px;
+    color: #666;
+}
+
+.Work-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Work-images img {
+    border-radius: 10px;
+    margin: 0 10px;
+    margin-left: 120px;
+    transition: transform 0.3s;
+}
+
+.Work-images img:hover {
+    transform: scale(1.05);
+}
+.see-more-button {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.see-more-button:hover {
+    background-color: #0056b3; 
+}
+.see-more-action {
+    margin-top: 300px;
+}
+.learn-more-button {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.CTA-image {
+    width: 100%;
+    height: 100% ;     
+}
+
+.CTA-image img {
+    width: 100%;          
+    height: 100%;         
+}
+/* General styling for the section */
+.clients {
+    text-align: center;
+    margin: 40px;
+}
+
+/* Title styling */
+.clients h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Individual client block styling */
+.clients-text, .clients-text2 {
+    background-color: #e3f2fd; /* Light blue for Amelia's block */
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 600px;
+    display: inline-block;
+    text-align: left;
+}
+
+/* Extra padding for client blocks */
+.clients-text {
+    background-color: #bbdefb; /* Slightly darker light blue for Amelia */
+}
+
+.clients-text2 {
+    background-color: #e6e6e6; /* White background for Jacob */
+}
+
+/* Stylistic details for the text */
+.clients-text h1, .clients-text2 h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.clients-text p, .clients-text2 p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.clients-text p:nth-of-type(1), .clients-text2 p:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.start-button:hover {
+    background-color: #0056b3; /* Button hover color */
+}
+.start-button {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.faq-section {
+    width: 80%; /* Adjust the width */
+    max-width: 1200px; /* Limit maximum width */
+    margin: auto; /* Center the section */
+    font-size: 1.25rem; /* Increase font size */
+    text-align: center; /* Center text */
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.icon {
+    color: #007bff;
+    font-size: 20px;
+}
+
+.help-section {
+    width: 40%;
+    padding: 20px;
+}
+
+.help-section h2 {
+    margin-bottom: 10px;
+}
+
+.help-section p {
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.more-faq {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.more-faq:hover {
+    text-decoration: underline;
+}
+.faq-question {
+    padding: 15px; /* Add some padding */
+    border: 1px solid #ccc; /* Optional border */
+    margin: 10px 0; /* Space between questions */
+}
+
+/* Button styles */
+.cta-button {
+    display: inline-block; /* Keep button inline */
+    padding: 10px 20px; /* Button padding */
+    font-size: 1.1rem; /* Increase button text size */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+}
+footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    text-align: center; /* Center align text */
+    padding: 20px 0; /* Padding for spacing */
+    position: relative; /* For positioning */
+    width: 100%; /* Full width */
+}
+
+.footer-content {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    max-width: 1200px; /* Optional max-width */
+    margin: 0 auto; /* Center the footer */
+}
+
+.footer-links a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    margin-left: 20px; /* Spacing between links */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Image Banner Containers */
+.start-now-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.start-now-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+/* Button Overlays */
+.start-now-container .start-button {
+    position: absolute;
+    bottom: 23%;
+    left: 8%;
+    background-color: #2b5cff;
+    color: #ffffff;
+    padding: 12px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 15px rgba(43, 92, 255, 0.3);
+}
+
+.start-now-container .start-button:hover {
+    background-color: #1a4cd8;
+    transform: scale(1.05);
+}
+
+/* Media Queries for responsive buttons */
+@media (max-width: 992px) {
+    .start-now-container .start-button {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .start-now-container .start-button {
+        padding: 6px 12px;
+        font-size: 0.75rem;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .start-now-container .start-button {
+        padding: 4px 8px;
+        font-size: 0.6rem;
+        border-radius: 10px;
+    }
+}
+
+
+/* FAQ Layout Restyling and Two-Column Alignment */
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    margin: 80px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.faq-container .help-section {
+    width: 45%;
+    text-align: left;
+    padding: 0;
+}
+
+.faq-container .help-section h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: 15px;
+}
+
+.faq-container .help-section p {
+    color: #64748b;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.faq-container .faq-section {
+    width: 50%;
+    margin: 0;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.faq-container .faq-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.faq-container .faq-item span {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.faq-container .newsletter-signup {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.faq-container .newsletter-signup input[type="email"] {
+    margin-bottom: 0;
+    flex-grow: 1;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 1rem;
+}
+
+.faq-container .newsletter-signup .cta-button {
+    margin-bottom: 0;
+    background-color: #2b5cff;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.faq-container .newsletter-signup .cta-button:hover {
+    background-color: #1a4cd8;
+}
+
+.faq-container .more-faq {
+    display: inline-block;
+    color: #2b5cff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: color 0.2s;
+}
+
+.faq-container .more-faq:hover {
+    color: #1a4cd8;
+    text-decoration: underline;
+}
+
+/* Mobile Responsiveness for FAQ Section */
+@media (max-width: 768px) {
+    .faq-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .faq-container .help-section,
+    .faq-container .faq-section {
+        width: 100%;
+    }
+}
+
+/* Help Meet Banner Section Styles */
+.help-meet-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.help-meet-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.help-meet-container .learn-more-button {
+    position: absolute;
+    bottom: 23%;
+    left: 8%;
+    background-color: #2b5cff;
+    color: #ffffff;
+    padding: 12px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 15px rgba(43, 92, 255, 0.3);
+}
+
+.help-meet-container .learn-more-button:hover {
+    background-color: #1a4cd8;
+    transform: scale(1.05);
+}
+
+@media (max-width: 992px) {
+    .help-meet-container .learn-more-button {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .help-meet-container .learn-more-button {
+        padding: 6px 12px;
+        font-size: 0.75rem;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .help-meet-container .learn-more-button {
+        padding: 4px 8px;
+        font-size: 0.6rem;
+        border-radius: 10px;
+    }
+}
+
+/* Elevate Brand CSS-only Banner */
+.elevate-brand-banner {
+    position: relative;
+    max-width: 1200px;
+    margin: 60px auto;
+    width: 90%;
+    background: linear-gradient(135deg, #2b5cff 0%, #1e40af 100%);
+    border-radius: 24px;
+    padding: 60px 80px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(43, 92, 255, 0.2);
+}
+
+/* Geometric circle graphics inside CSS banner */
+.elevate-brand-banner::before {
+    content: '';
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    top: -120px;
+    left: -120px;
+    pointer-events: none;
+}
+
+.elevate-brand-banner::after {
+    content: '';
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 50%;
+    bottom: -60px;
+    left: 200px;
+    pointer-events: none;
+}
+
+.elevate-brand-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    gap: 40px;
+}
+
+.elevate-brand-left {
+    width: 45%;
+}
+
+.elevate-brand-left h2 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -1px;
+}
+
+.elevate-brand-right {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.elevate-brand-right p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.elevate-book-button {
+    background-color: #ffffff;
+    color: #2b5cff;
+    padding: 14px 38px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.elevate-book-button:hover {
+    background-color: #f8fafc;
+    color: #1e40af;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Widget & Link Columns */
+.footer-widget-section {
+    background-color: #ffffff;
+    border-top: 1px solid #e2e8f0;
+    padding: 80px 0;
+    width: 100%;
+}
+
+.footer-widget-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+    gap: 40px;
+}
+
+.footer-widget-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.footer-logo img {
+    height: 48px;
+    width: auto;
+}
+
+.footer-contact-button {
+    background-color: #2b5cff;
+    color: #ffffff;
+    padding: 14px 36px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 15px rgba(43, 92, 255, 0.25);
+}
+
+.footer-contact-button:hover {
+    background-color: #1a4cd8;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(43, 92, 255, 0.35);
+}
+
+.footer-widget-links {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.widget-link-col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.widget-link-col h4 {
+    color: #1e293b;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.widget-link-col ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.widget-link-col ul li a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.widget-link-col ul li a:hover {
+    color: #2b5cff;
+}
+
+/* Responsiveness Media Queries for Banner & Footer */
+@media (max-width: 992px) {
+    .elevate-brand-banner {
+        padding: 40px;
+    }
+    .elevate-brand-left h2 {
+        font-size: 2.2rem;
+    }
+    .elevate-brand-right p {
+        font-size: 1rem;
+    }
+    .footer-widget-links {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .elevate-brand-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .elevate-brand-left,
+    .elevate-brand-right {
+        width: 100%;
+    }
+    .footer-widget-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-widget-left,
+    .footer-widget-links {
+        width: 100%;
+    }
+    .footer-widget-links {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .widget-link-col {
+        min-width: 140px;
+    }
+}
+
+@media (max-width: 480px) {
+    .elevate-brand-banner {
+        padding: 30px 20px;
+    }
+    .elevate-brand-left h2 {
+        font-size: 1.8rem;
+    }
+    .elevate-book-button,
+    .footer-contact-button {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-widget-links {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+
