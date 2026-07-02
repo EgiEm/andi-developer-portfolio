@@ -563,15 +563,15 @@ section.clients h1 {
 
 .start-now-container .start-button {
     position: absolute;
-    bottom: 20.5%;
-    left: 8.3%;
+    bottom: 11%;
+    left: 4.2%;
     background-color: #2b5cff;
     color: #ffffff;
-    padding: 1.25cqi 3.25cqi;
+    padding: 2cqi 5cqi;
     border-radius: 3.5cqi;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.5cqi;
+    font-size: 2.2cqi;
     box-shadow: 0 0.5cqi 1.5cqi rgba(43, 92, 255, 0.3);
     transition: all 0.2s ease-in-out;
     border: none;
