@@ -5,12 +5,16 @@
     padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #1e293b;
-    overflow-x: hidden;
 }
 
 /* Navbar responsiveness */
@@ -226,6 +230,8 @@ body {
 }
 
 .image img {
+    max-width: 100%;
+    height: auto;
     max-height: 36px;
     opacity: 0.5; 
     transition: opacity 0.3s; 
@@ -245,6 +251,8 @@ body {
 }
 
 .image1 img {
+    max-width: 100%;
+    height: auto;
     max-height: 36px;
     opacity: 0.5; 
     transition: opacity 0.3s; 
